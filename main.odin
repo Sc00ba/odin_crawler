@@ -275,7 +275,7 @@ DrawBillboard :: proc(pos: rl.Vector2, cam: ^rl.Camera, height: f32, tiler: ^Til
 main :: proc() {
 	rl.SetTraceLogLevel(.ERROR)
 	rl.SetConfigFlags({.VSYNC_HINT})
-	rl.InitWindow(4096, 2160, "Odin Crawler")
+	rl.InitWindow(1920, 1080, "Odin Crawler")
 	defer rl.CloseWindow()
 
 	camera := rl.Camera3D {
